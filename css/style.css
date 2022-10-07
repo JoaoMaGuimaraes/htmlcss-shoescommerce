@@ -21,7 +21,7 @@ body {
 .col {
   display: inline-block;
   width: calc(100% / 3);
-  margin: 0 -2px 30px;
+  margin: 0 -2px 90px;
   padding: 10px;
 }
 
@@ -77,6 +77,29 @@ body {
 }
 
 .oldprice {
-    font-size: 15px;
-    text-decoration: line-through;
-  }
+  font-size: 15px;
+  text-decoration: line-through;
+}
+
+.heart {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 4px 8px;
+  background-color: lightgray;
+  border-radius: 50%;
+  color: gray;
+  font-size: 20px;
+}
+
+.badge {
+  background-color: #9984d4;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
