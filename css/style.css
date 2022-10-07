@@ -95,6 +95,11 @@ body {
   font-size: 20px;
 }
 
+.heart:hover{
+    color:red;
+    cursor: pointer;
+}
+
 /* SHOES HOVER */
 .shoe_hover {
     width: 100%;
