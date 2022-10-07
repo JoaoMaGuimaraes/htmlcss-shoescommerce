@@ -34,3 +34,26 @@ body {
   .shoes img {
     width: 100%;
   }
+
+   /* SHOES DISCOUNTS AND ECO FRIENDLY DESCRIPTION */
+
+  .discount {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2px 6px;
+    background-color: red;
+    color: white;
+  }
+
+  .eco {
+    display: inline-block;
+    position: absolute;
+    left: 55px;
+    bottom: 0;
+    padding: 2px 10px;
+    background-color: green;
+    color: white;
+  }
+  
